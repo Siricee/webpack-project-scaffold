@@ -9,7 +9,7 @@
 - 支持 ES6
 - 分离 css
 - [生产模式] 压缩 JS、压缩 css
-- 自动清空输出目录
+- [生产模式] build 命令自动清空输出目录
 
 ## 命令
 
@@ -22,6 +22,9 @@ npm run clean # 清空dist
 ## 参考链接
 
 [从零开始配置 webpack(基于 webpack 4 和 babel 7 版本) - 掘金](https://juejin.cn/post/6844903802189905934)
+
+<details>
+<summary>展开归档</summary>
 
 ### 防丢归档
 
@@ -391,3 +394,5 @@ module.exports = {
   plugins: [new CleanWebpackPlugin()],
 };
 ```
+
+</details>
